@@ -55,28 +55,7 @@ The experimental results show that both algorithms exhibit linear growth in exec
 
 However, the recursive algorithm consistently requires more execution time than the iterative algorithm. This difference is caused by the overhead of recursive function calls, including stack frame creation and return operations. Although both algorithms belong to the same asymptotic complexity class, the iterative algorithm performs better in practice due to smaller constant factors.
 
-How to Run the Program
-Requirements
 
-Python 3.8 or later
-
-matplotlib
-
-Install dependencies:
-
-pip install matplotlib
-
-Run the Program
-python sum_of_digits_analysis.py
-
-
-A graph comparing the execution time of both algorithms will be displayed.
-
-Project Structure
-├── sum_of_digits_analysis.py
-├── README.md
-└── results/
-    └── execution_time_graph.png
 
 References
 
